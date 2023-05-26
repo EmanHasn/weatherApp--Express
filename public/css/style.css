@@ -1,0 +1,92 @@
+
+.apiData {
+    background-color: #29455D;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: none;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    padding: 10px;
+    background: #29455D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFF766;
+}
+body{
+    background-image: url("../img/weatherApp.jpg");
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form label , form input{
+    margin-top: 10px;
+    text-align: center;
+    border-style: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+form label{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+form input:focus{
+    outline-color: #559bd8;
+}
+form input{
+    width: 250px;
+    font-size: 1rem;
+    color: #29455D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form input[type='submit']{
+    font-size: 1rem;
+    color: #29455D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer p{
+    background-color: #ddd;
+    padding: 10px
+}
+.center-msg{
+    padding: 20px;
+    margin: 0 auto;
+    background: #29455D;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center-msg a{
+    color: #FFF766;
+}
